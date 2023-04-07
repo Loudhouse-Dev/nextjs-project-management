@@ -36,7 +36,7 @@ body {
 }
 
 .glass-effect {
-	backdrop-filter: blur(16px) saturate(130%);
+	backdrop-filter: blur(14px) saturate(130%);
 	background-color: rgba(0, 0, 0, 0.4);
 }
 

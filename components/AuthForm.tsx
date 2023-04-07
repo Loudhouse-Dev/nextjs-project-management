@@ -23,6 +23,7 @@ const loginContent = {
 	buttonText: 'Log In'
 };
 
+//set initial state
 const initial = { email: '', password: '', firstName: '', lastName: '' };
 
 export default function AuthForm({ mode }: { mode: 'register' | 'login' }) {

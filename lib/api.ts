@@ -18,10 +18,10 @@ const fetcher = async ({ url, method, body, json = true }) => {
 	}
 };
 
-export const register = (user) => {
+export const register = (user: { email: string; password: string; firstName: string; lastName: string; }) => {
 	return fetcher({ url: '/api/register', method: 'post', body: user });
 };
 
-export const login = (user) => {
+export const login = (user: { email: string; password: string; firstName: string; lastName: string; }) => {
 	return fetcher({ url: '/api/login', method: 'post', body: user });
 };
